@@ -2,7 +2,7 @@ mysql-binlog-replication
 ========================
 
 
-This application is used to replicate two or more MySQL databases using Binlog lib
+This application is used to replicate to one or more MySQL databases using Binlog lib
 
 Version: 0.1-beta
 
@@ -10,18 +10,19 @@ Version: 0.1-beta
 ### Installation
 
 
-    INSTALL LIB REQUERIMENTS: 
+    Install lib requeriments: 
         mysql-replication-listener
 
-    CREATE AND CONFIGURE SLAVE TABLE 
+    Create and configure slave servers table
         servidores.sql
 
-    CONFIGURE: 
+    Configure the file: 
         replication.conf
 
-    COMPILE: 
+    Compile: 
         g++ replication.cpp -o replication -lreplication -lboost_system -lmysqlclient
 
+    Run
 
 
 
