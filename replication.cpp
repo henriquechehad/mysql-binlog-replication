@@ -22,7 +22,7 @@
 #include "binlog_api.h"
 #include "res/INIReader.h"
 #include "res/INIReader.cpp"
-#include "funcoes.cpp"
+#include "utils/funcoes.cpp"
 
 using std::string;
 using mysql::Binary_log;
@@ -128,7 +128,7 @@ public:
 	}
 
 	void carregaConf() {
-		INIReader reader("replication.conf");
+		INIReader reader("config/replication.conf");
 		if (reader.ParseError() < 0) {
 			logErro("Nao foi possivel carregar o arquivo replication.conf");
 			std::cout
