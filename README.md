@@ -26,4 +26,5 @@ Version: 0.1-beta
 
 
 
-Author: Henrique Chehad
+### Author 
+- Henrique Chehad
