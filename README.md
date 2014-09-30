@@ -1,16 +1,13 @@
 mysql-binlog-replication
 ========================
 
-# MySQL Replication Using Binlog
 
 This application is used to replicate two or more MySQL databases using Binlog lib
 
+Version: 0.1-beta
 
 
-## Beta version
-
-
-# Installation
+### Installation
 
 
     INSTALL LIB REQUERIMENTS: mysql-replication-listener
@@ -22,3 +19,7 @@ This application is used to replicate two or more MySQL databases using Binlog l
     COMPILE g++ replication.cpp -o replication -lreplication -lboost_system -lmysqlclient
 
 
+
+
+
+Author: Henrique Chehad
