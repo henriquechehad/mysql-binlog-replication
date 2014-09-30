@@ -10,13 +10,17 @@ Version: 0.1-beta
 ### Installation
 
 
-    INSTALL LIB REQUERIMENTS: mysql-replication-listener
+    INSTALL LIB REQUERIMENTS: 
+        mysql-replication-listener
 
-    INSTALL AND CONFIGURE SLAVE TABLE servidores.sql
+    CREATE AND CONFIGURE SLAVE TABLE 
+        servidores.sql
 
-    CONFIGURE replication.conf
+    CONFIGURE: 
+        replication.conf
 
-    COMPILE g++ replication.cpp -o replication -lreplication -lboost_system -lmysqlclient
+    COMPILE: 
+        g++ replication.cpp -o replication -lreplication -lboost_system -lmysqlclient
 
 
 
