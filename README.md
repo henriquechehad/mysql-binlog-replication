@@ -10,16 +10,16 @@ Version: 0.1-beta
 ### Installation
 
 
-    #####Install lib requeriments: 
+    #### Install lib requeriments: 
         mysql-replication-listener
 
-    #####Create and configure slave servers table
+    #### Create and configure slave servers table
         servidores.sql
 
-    #####Configure the file: 
+    ##### Configure the file: 
         replication.conf
 
-    #####Compile: 
+    ##### Compile: 
         g++ replication.cpp -o replication -lreplication -lboost_system -lmysqlclient
 
 
